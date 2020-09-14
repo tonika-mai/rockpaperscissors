@@ -1,0 +1,55 @@
+.powerOffBtn {
+    background-image: url(../imgs/power.png);
+    background-color: rgb(246, 46, 46);
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    width: 30px;
+    height: 30px;
+}
+
+.powerOffBtn:hover, .powerOffBtn:active {
+    background-color: rgb(201, 36, 36);
+}
+
+.gamePlayBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: white;
+}
+
+.gamePlayBtn:active {
+    transform: translate(-50%, -43%);
+}
+
+.checkWinnerBtn {
+    background-color: rgb(245, 66, 66);
+}
+
+.checkWinnerBtn:hover {
+    background-color: rgb(201, 36, 36);
+}
+
+.nextRoundBtn {
+    background-image: url(../imgs/play.png);
+    background-size: contain;
+}
+
+.nextRoundBtn:active, .nextRoundBtn:hover {
+    background-image: url(../imgs/play_active.png);
+}
+
+@media screen and (max-width: 680px) {
+    .gamePlayBtn {
+        width: 60px;
+        height: 60px;
+    }
+}

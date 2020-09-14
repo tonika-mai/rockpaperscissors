@@ -1,0 +1,29 @@
+.statsContainer {
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+.statsContainer h1 {
+    margin-bottom: 15px;
+    padding-left: 50px;
+    background: url(../imgs/stats.png) no-repeat;
+}
+
+.winnerStats {
+    text-transform: uppercase;
+}
+
+.statsContainer h2 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.statsContainer p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.newGame {
+    width: 185px;
+}

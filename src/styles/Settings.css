@@ -1,0 +1,110 @@
+.settingsTitle {
+    flex: 1;
+    margin-bottom: 0;
+    padding-left: 50px;
+    background: url(../imgs/gear.png) no-repeat;
+}
+
+/*------FORM------*/
+form {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+form p {
+    display: inline;
+}
+
+label {
+    display: block;
+}
+
+.settingsField {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settingsField label {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.settingsField input {
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 5px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+input[type="text"] {
+    flex: 1;
+    text-transform: uppercase;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+.numberSetting {
+    margin: 0 auto;
+}
+
+.initGame {
+    width: 120px;
+    height: 47px;
+    align-self: center;
+    font-size: 2.5rem;
+    background-color: rgb(0, 201, 33);
+    color: white;
+    border-radius: 25px;
+}
+
+.initGame:active, .initGame:hover {
+    background-color: rgb(0, 155, 26);
+}
+
+/*------SWITCH------*/
+.switchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.switchLabel {
+    position: relative;
+    margin: 0 auto;
+    height: 34px;
+    width: 90px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.switchLabel::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid cornflowerblue;
+    /* -webkit-transition: left 2s;
+    transition: left 2s; */
+}
+
+.switchInput:checked + .switchLabel::after {
+    left: 0px;
+}
+
+#switch {
+    display: none;
+}

@@ -1,0 +1,87 @@
+/*-------LAYOUT-------*/
+.playerSection {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    border-radius: inherit;
+}
+
+.playerSection#2 {
+    border-radius: 0 20px 20px 0;
+}
+
+.playerTitle {
+    flex: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.choiceContainer {
+    flex: 2;
+}
+
+.scoreContainer {
+    flex: 1;
+}
+
+.playerStatus {
+    width: fit-content;
+}
+
+.playerReady {
+    margin: 28% auto;
+}
+
+.playerWins {
+    margin: 16% auto;
+}
+
+.playerLoses, .AIThinks {
+    margin: 17% auto;
+}
+
+.tieRound {
+    margin: 8% auto;
+}
+
+.tieContainer {
+    color: rgb(245, 66, 66);
+}
+
+/*-------BUTTONS-------*/
+.choiceContainer button {
+    background-color: rgb(232, 232, 232);
+    height: 64px;
+    width: 64px;
+    margin: 0 5px;
+    border-radius: 25%;
+}
+
+.choiceContainer button:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+.rockBtn {
+    background-image: url(../imgs/rock.png);
+}
+
+.paperBtn {
+    background-image: url(../imgs/paper.png);
+}
+
+.scissorsBtn {
+    background-image: url(../imgs/scissors.png);
+}
+
+/*--------WINNER---------*/
+.winner h1 {
+    color: rgb(245, 66, 66);
+}
+
+.winner {
+    background-image: url(../imgs/confetti3.jpg);
+    background-size: contain;
+}
