@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rockpaperscissors/static/css/main.9bd959c2.chunk.css",
+    "main.js": "/rockpaperscissors/static/js/main.c8788424.chunk.js",
+    "main.js.map": "/rockpaperscissors/static/js/main.c8788424.chunk.js.map",
+    "runtime-main.js": "/rockpaperscissors/static/js/runtime-main.e1124620.js",
+    "runtime-main.js.map": "/rockpaperscissors/static/js/runtime-main.e1124620.js.map",
+    "static/js/2.81689917.chunk.js": "/rockpaperscissors/static/js/2.81689917.chunk.js",
+    "static/js/2.81689917.chunk.js.map": "/rockpaperscissors/static/js/2.81689917.chunk.js.map",
+    "index.html": "/rockpaperscissors/index.html",
+    "precache-manifest.8bf00af7077b4690d1fb882b1044ec8b.js": "/rockpaperscissors/precache-manifest.8bf00af7077b4690d1fb882b1044ec8b.js",
+    "service-worker.js": "/rockpaperscissors/service-worker.js",
+    "static/css/main.9bd959c2.chunk.css.map": "/rockpaperscissors/static/css/main.9bd959c2.chunk.css.map",
+    "static/js/2.81689917.chunk.js.LICENSE.txt": "/rockpaperscissors/static/js/2.81689917.chunk.js.LICENSE.txt",
+    "static/media/Player.css": "/rockpaperscissors/static/media/confetti3.538245cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1124620.js",
+    "static/js/2.81689917.chunk.js",
+    "static/css/main.9bd959c2.chunk.css",
+    "static/js/main.c8788424.chunk.js"
+  ]
+}
